@@ -1,0 +1,31 @@
+@media screen and (min-width: 1000px) { /*Tablet mode*/
+  h1 {
+    font-size:400%;
+  }
+  .column {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+  section {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+
+    gap: 4px;
+    grid-auto-flow: column;
+  }
+}
+
+@media screen and (max-width: 600px) { /*Mobile mode*/
+  h1 {
+    font-size:200%;
+  }
+}
+
+body {
+  text-align:center;
+}
+
+
+
